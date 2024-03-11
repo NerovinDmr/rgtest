@@ -1,0 +1,62 @@
+.posts {
+  border: 2px solid rgba(6, 82, 81, 0.85);
+  border-radius: 20px;
+}
+
+.noData {
+  font-size: 2rem;
+  color: rgb(255, 0, 17);
+  text-align: center;
+}
+.postList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  li {
+    background-color: rgba(45, 35, 35, 0.206);
+
+    width: 30%;
+    height: 90px;
+    border: 2px solid rgba(6, 82, 81, 0.85);
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    span {
+      font-weight: bold;
+      color: rgb(8, 100, 100);
+    }
+    a {
+      text-decoration: none;
+      color: rgb(92, 130, 130);
+    }
+  }
+}
+.control {
+  background-color: rgba(29, 37, 37, 0.979);
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  .btn {
+    color: rgb(32, 165, 163);
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 255, 247);
+    border-radius: 50%;
+    &:hover {
+      border-color: rgb(152, 37, 209);
+    }
+  }
+  .pageNum {
+    color: rgb(0, 255, 247);
+    padding: 9px;
+    border-bottom: 1px solid rgb(0, 255, 247);
+  }
+}
